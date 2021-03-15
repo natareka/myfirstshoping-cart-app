@@ -3,9 +3,9 @@
         {
         "_id" : "Baby_Cloths",
         "image" : "/images/Baby_Cloths.jpg",
-        "title" : "Kids Dress",
+        "title" : "Kids dress for Girls and Boys",
         "description" : "This is for all the latest trends, Baby Girl or Boy also can wear",
-        "price" : 19,
+        "price" : 30,
     "availablesizes" : ["6-12 Months" ,"1-2 Years" , "3-4 Years", "12-18 Months"]
         },
         {
@@ -13,7 +13,7 @@
             "image" : "/images/Baby_Cloths1.png",
             "title" : "Kids dress for Girls and Boys",
             "description" : "This is for all the latest trends, Baby Girl or Boy also can wear",
-            "price" : 19,
+            "price" : 45,
         "availablesizes" : ["6-12 Months" ,"1-2 Years" , "3-4 Years"]
         },
         {
@@ -21,7 +21,7 @@
             "image" : "/images/Baby_Cloths2.jpg",
             "title" : "Boy Baby Dress",
             "description" : "This is for all the latest trends, Baby Girl or Boy also can wear",
-            "price" : 19,
+            "price" : 20,
         "availablesizes" : ["S" , "M" , "L" , "XL"]
         },
         {
@@ -29,7 +29,7 @@
             "image" : "/images/Baby_Cloths3.jpg",
             "title" : "Girl Baby Dress",
             "description" : "This is for all the latest trends, Baby Girl or Boy also can wear",
-            "price" : 19,
+            "price" : 35,
         "availablesizes" : ["XL" , "L" , "S"]
         },
         {
@@ -37,7 +37,7 @@
             "image" : "/images/Baby_Cycle.jfif",
             "title" : "ByCycle for Kids 1",
             "description" : "This is for all the latest trends, Girls or Boys also can drive",
-            "price" : 19,
+            "price" : 50,
         "availablesizes" : ["4-7 Y" , "8-10 Y" , "12-15 Y"]
         },
         {
@@ -45,7 +45,7 @@
             "image" : "/images/Baby_Cycle1.jfif",
             "title" : "ByCycle for Kids 2",
             "description" : "This is for all the latest trends, Girls or Boys also can drive",
-            "price" : 19,
+            "price" : 75,
         "availablesizes" : ["2-3 Y" , "4-6 Y" , "6-8 Y"]
         }
         

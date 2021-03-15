@@ -14,7 +14,7 @@ body,
 } /* This settings for root element. this body setting going to apply to root */
 /* Above two (html and body ) is Basic and Reset Setting */
 
-body, input, select, textarea , button {
+body, input, select, button , textarea {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
 }
@@ -85,31 +85,32 @@ footer{
   margin: 0;
   list-style-type: none;
 }
-.product li {
+.products li {
   flex: 0 1 29rem;
   height: 47rem;
   padding: 1rem;
+
 }
-.products {
+.product {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
 }
-.products img {
+.product img {
   max-width: 37rem;
   max-height: 37rem;
 }
-.products-price {
+.product-price {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.products-price div,
-.products-price button {
+.product-price div,
+.product-price button {
   text-align: center;
 }
-.products-price div {
+.product-price div {
   font-size: 2rem;
 }
 .button {
@@ -122,5 +123,5 @@ footer{
   border: 0.1rem lightslategrey;
 }
 .button.primary {
-  background-color: #f0c040;
+  background-color: orange;
 }
