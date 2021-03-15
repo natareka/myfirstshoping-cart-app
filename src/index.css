@@ -1,3 +1,7 @@
+/* Google font monster link for default font settings and design */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700;1,900&display=swap');
+
+
 html {
   font-size: 70.5%;    
   box-sizing: border-box; /* Regarding these two settings, we are able to bigger handle padding and marging inside the div and also standard font size pxl */
@@ -10,11 +14,11 @@ body,
 } /* This settings for root element. this body setting going to apply to root */
 /* Above two (html and body ) is Basic and Reset Setting */
 
-body, input, select, textarea {
+body, input, select, textarea , button {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
-  font-family: Arial, Helvetica, sans-serif;
 }
-
+/* From grid-container to untill footer setting is used for set fitting page for header, main(center), footer page inside the system screen. (for fit large,small,minimize screen) */
 .grid-container {
   display: grid;
   grid-template-areas: "header"
@@ -25,9 +29,12 @@ body, input, select, textarea {
   height: 100%;
 } /* we are going to create css grid */
 
+a {
+  text-decoration: none;
+}
 a:hover {
   color: orange;
-}
+}/* This is for change color while currsor point on header link */
 
 header {
   grid-area: header;
@@ -54,3 +61,66 @@ footer{
   align-items: center;
 }
 
+/* These (content,main,sidebar) settings for center page (main page) */
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main {
+  flex: 3 60rem;
+}
+
+.sidebar {
+  flex: 1 20rem
+}
+
+/* products */ /* The below settings is used for modify the size of images and font and to fit the images in screen*/
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.product li {
+  flex: 0 1 29rem;
+  height: 47rem;
+  padding: 1rem;
+}
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.products img {
+  max-width: 37rem;
+  max-height: 37rem;
+}
+.products-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.products-price div,
+.products-price button {
+  text-align: center;
+}
+.products-price div {
+  font-size: 2rem;
+}
+.button {
+  padding: 1rem;
+  border: 0.1rem lightcyan;
+  background-color: white;
+  cursor: pointer;
+}
+.button:hover {
+  border: 0.1rem lightslategrey;
+}
+.button.primary {
+  background-color: #f0c040;
+}
