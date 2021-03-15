@@ -1,0 +1,54 @@
+{
+    "products": [
+        {
+        "_id" : "Baby_Cloths",
+        "image" : "/images/Baby_Cloths.jpg",
+        "title" : "Kids dress for Girls and Boys",
+        "description" : "This is for all the latest trends, Baby Girl or Boy also can wear",
+        "price" : 30,
+    "availablesizes" : ["6-12 Months" ,"1-2 Years" , "3-4 Years", "12-18 Months"]
+        },
+        {
+            "_id" : "Baby_Cloths1",
+            "image" : "/images/Baby_Cloths1.png",
+            "title" : "Kids dress for Girls and Boys",
+            "description" : "This is for all the latest trends, Baby Girl or Boy also can wear",
+            "price" : 45,
+        "availablesizes" : ["6-12 Months" ,"1-2 Years" , "3-4 Years"]
+        },
+        {
+            "_id" : "Baby_Cloths2",
+            "image" : "/images/Baby_Cloths2.jpg",
+            "title" : "Boy Baby Dress",
+            "description" : "This is for all the latest trends, Baby Girl or Boy also can wear",
+            "price" : 20,
+        "availablesizes" : ["S" , "M" , "L" , "XL"]
+        },
+        {
+            "_id" : "Baby_Cloths3",
+            "image" : "/images/Baby_Cloths3.jpg",
+            "title" : "Girl Baby Dress",
+            "description" : "This is for all the latest trends, Baby Girl or Boy also can wear",
+            "price" : 35,
+        "availablesizes" : ["XL" , "L" , "S"]
+        },
+        {
+            "_id" : "Baby_Cycle",
+            "image" : "/images/Baby_Cycle.jfif",
+            "title" : "ByCycle for Kids 1",
+            "description" : "This is for all the latest trends, Girls or Boys also can drive",
+            "price" : 50,
+        "availablesizes" : ["4-7 Y" , "8-10 Y" , "12-15 Y"]
+        },
+        {
+            "_id" : "Baby_Cycle1",
+            "image" : "/images/Baby_Cycle1.jfif",
+            "title" : "ByCycle for Kids 2",
+            "description" : "This is for all the latest trends, Girls or Boys also can drive",
+            "price" : 75,
+        "availablesizes" : ["2-3 Y" , "4-6 Y" , "6-8 Y"]
+        }
+        
+
+        ]
+}
